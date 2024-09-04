@@ -1,5 +1,5 @@
-import { API_URL } from '../app/(home)/page';
 import styles from '../styles/movie-info.module.css';
+import { API_URL } from '../app/(home)/API_URL';
 
 export async function getMovie(id: string) {
   // console.log('1', Date.now())
