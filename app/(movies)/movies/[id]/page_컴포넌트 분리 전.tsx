@@ -1,4 +1,4 @@
-import { API_URL } from '../../../(home)/API_URL';
+import { API_URL } from '../../../contants';
 
 async function getMovie(id: string) {
   console.log('1', Date.now())

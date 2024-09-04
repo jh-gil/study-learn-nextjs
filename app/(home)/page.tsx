@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Movie from '../../components/movie';
 import styles from '../../styles/home.module.css'
-import { API_URL } from './API_URL';
+import { API_URL } from '../contants';
 
 export const metadata: Metadata = {
   title: 'Home',

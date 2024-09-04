@@ -1,5 +1,5 @@
 import styles from '../styles/movie-videos.module.css'
-import { API_URL } from '../app/(home)/API_URL';
+import { API_URL } from '../app/contants';
 
 async function getVideos(id: string) {
   console.log('2', Date.now())
