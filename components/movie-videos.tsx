@@ -3,7 +3,7 @@ import { API_URL } from '../app/contants';
 
 async function getVideos(id: string) {
   console.log('2', Date.now())
-  await new Promise((resolve => setTimeout(resolve, 3000)));
+  // await new Promise((resolve => setTimeout(resolve, 3000)));
   const res = await fetch(`${API_URL}/${id}/videos`);
   return res.json();
 }
