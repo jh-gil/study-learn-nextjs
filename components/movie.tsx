@@ -17,7 +17,7 @@ export default function Movie({title, id, poster_path}: IMovieProps) {
   }
   return (
     <div key={id} className={styles.movie}>
-      <img src={poster_path} alt={title} onClick={() => onClick(id)} />
+      <img src={poster_path} alt={title} onClick={() => onClick(id)} className="hover:border-2 border-red-800 border-solid" />
       <Link prefetch href={`/movies/${id}`}>{title}</Link>
     </div>
   )
